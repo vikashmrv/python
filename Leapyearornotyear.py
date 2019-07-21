@@ -1,6 +1,6 @@
 a=input()
 v=int(a)
 if v%400==0:
-    print("leap")
+    print("yes")
 else:
-    print("not a leap")
+    print("no")
