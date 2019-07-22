@@ -1,0 +1,11 @@
+n=int(input())
+sum=n
+v=0
+while(n>0):
+    iyps=n%10
+    v=v*10+iyps
+    n=n//10
+if(sum==v):
+    print('yes')
+else:
+    print('no')
