@@ -1,5 +1,6 @@
 n=int(input())
-for i in range(1,n):
-    n=n*i
-    i=n
-print(i)
+v=1
+while(n>0):
+  v=v*n
+  n=n-1
+  print(v)
